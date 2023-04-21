@@ -1,0 +1,109 @@
+/* Texts and links caracteristics */
+
+body {
+  background-color:#FEF6C9;
+  color:#5C7457;
+  font-family: Teko;
+  font-size: 29px;
+}
+
+h1, h2 {
+    font-weight: 500;
+    font-family: Bebas Neue;
+}
+
+h1 {
+	color:#214E34;
+    font-weight: 600;
+    font-size: 69px;
+}
+
+h2 {
+	color:#774936;
+	font-size: 42px;
+	font-weight: lighter;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: #6A8EFC;
+	font-weight: bold;
+}
+
+a:hover {
+	color: white;
+}
+#profile {
+	width: 190px;
+	border-radius: 50%;
+	box-shadow: 0px 10px 40px #6B7171;
+	border: 2px solid #1A402A;
+}
+
+
+
+/* Class and cards custom */
+
+.container {
+	width: 700px;
+	margin: 35px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+.card-beige {
+	background-color: #FDF9E1;
+	padding: 35px;
+	box-shadow: 0px 10px 25px #6B7171;
+	border-radius: 10px;
+	margin: 23px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: #C6D4FF;
+	border-radius: 10px;
+	padding: 10px 20px;
+	box-shadow: 0px 10px 40px #6B7171;
+}
+
+.btn-blue:hover {
+	background-color: #9CB5FF;
+	border-radius: 10px;
+	padding: 10px 20px;
+	box-shadow: 0px 10px 40px black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 70px;
+	color: #4F2F21;
+}
+
+.list-inline i:hover {
+	color: #214E34;
+}
